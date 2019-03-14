@@ -11,6 +11,7 @@ const routes = require('./routes')
 
 // Initializations
 const app = express()
+require('./database')
 
 // Settings
 app
