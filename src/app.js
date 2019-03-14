@@ -15,7 +15,6 @@ require('./database')
 
 // Settings
 app
-  // .set('port', port)
   .set('views', viewDir)
   .engine('.hbs', exphbs({
     defaultLayout: 'main',

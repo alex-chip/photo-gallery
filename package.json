@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/",
-    "start": "node src/"
+    "dev": "cross-env NODE_ENV=development nodemon src/",
+    "start": "cross-env NODE_ENV=production node src/"
   },
   "keywords": [],
   "author": "Alex Chip",
