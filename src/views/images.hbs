@@ -1,0 +1,12 @@
+{{!-- Swiper slide --}}
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    {{#each photos}}
+    <img src="{{imageURL}}" class="swiper-slide" alt="{{title}}">
+    {{/each}}
+  </div>
+
+  {{!-- Add Pagiantion --}}
+  <div class="swiper-pagination"></div>
+</div>
